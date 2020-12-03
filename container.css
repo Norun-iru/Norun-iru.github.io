@@ -1,0 +1,26 @@
+.header {
+    z-index: 9999;
+    position: fixed;
+    height: 5.0rem;
+    width: 100%;
+    background-color : darkgray; 
+    top: 0;
+  }
+  
+  .header-left {
+    float: left;
+    margin-left: 10%;
+  }
+  
+  .header-right {
+    float: right;
+    margin-right: 10%;
+  }
+
+  .fslk{
+    margin-top: 10%;
+}
+
+body{
+    margin: 0;
+}
