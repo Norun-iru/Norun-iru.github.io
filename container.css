@@ -21,11 +21,37 @@
     margin-top: 10%;
 }
 
-  .asd{
-    font-size: 500%;
-    color:  rgb(0, 83, 110);
+.asd {
+  position: relative;
+  padding: 1em 2em;
+  text-align: center;
+  color: #0970b9;
+}
 
-  }
+.asd:before,
+.asd:after {
+  position: absolute;
+  content: '';
+}
+
+.asd:after {
+  top: 15%;
+  left: 25%;
+  width: 50px;
+  height: 50px;
+  border-top: 2px solid #000;
+  border-left: 2px solid #000;
+}
+
+.asd:before {
+  right: 25%;
+  bottom: 15%;
+  width: 50px;
+  height: 50px;
+  border-right: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+
 
 body{
     margin: 0;
@@ -152,37 +178,7 @@ body{
 
 
 
-.asd {
-  position: relative;
-  overflow: hidden;
-  padding: 1.5rem 2rem 1.5rem 30px;
-  border: 2px solid #000;
-}
 
-.asd:before {
-  position: absolute;
-  top: -150%;
-  left: -0px;
-  width: 200px;
-  height: 300%;
-  content: '';
-  -webkit-transform: rotate(25deg);
-  transform: rotate(25deg);
-  background: #000;
-}
-
-.asd span {
-  font-size: 40px;
-  font-size: 4rem;
-  position: absolute;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  display: block;
-  padding-top: 3px;
-  padding-left: 16px;
-  color: #fff;
-}
 
 
  .slide {
