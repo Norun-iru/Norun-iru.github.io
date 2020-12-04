@@ -3,7 +3,7 @@
     position: fixed;
     height: 5.0rem;
     width: 100%;
-    background-color : darkgray; 
+    background-color : rgb(29, 27, 27); 
     top: 0;
   }
   
@@ -21,6 +21,129 @@
     margin-top: 10%;
 }
 
+  .asd{
+    font-size: 500%;
+    color:  rgb(0, 83, 110);
+
+  }
+
 body{
     margin: 0;
+    text-align: center;
+    font-family: 源柔ゴシック;
 }
+
+.btn-vertical-border {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  padding: 5px 11px 5px 15px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  transition: .4s;
+}
+
+.btn-vertical-border:before {
+  position: absolute;
+  display: inline-block;
+  content: '';
+  width: 4px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 3px;
+  background:rgb(255, 255, 255);
+}
+
+.btn-vertical-border:after {
+  position: absolute;
+  display: inline-block;
+  content: '';
+  width: 4px;
+  height: 100%;
+  top:0;
+  left: 100%;
+  border-radius: 3px;
+  background:rgb(255, 255, 255);
+}
+
+.btn-vertical-border:hover:before, .btn-vertical-border:hover:after {
+  -webkit-transform: rotate(10deg);
+  transform: rotate(10deg);
+}
+
+.btn-flat-border {
+  display: inline-block;
+  padding: 0.3em 1em;
+  text-decoration: none;
+  color: #67c5ff;
+  border: solid 2px #67c5ff;
+  border-radius: 3px;
+  transition: .4s;
+}
+
+.btn-flat-border:hover {
+  background: #67c5ff;
+  color: white;
+}
+
+.mida {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1em;
+  margin-top: 5%;
+  color: #000000;
+  font-size: 300%;
+}
+.mida:before {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  display: inline-block;
+  width: 60px;
+  height: 5px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: rgb(0, 0, 0);
+  border-radius: 2px;
+}
+
+.follow-me {
+  list-style: none;
+  margin: 0 0 -8px;
+  overflow: hidden;
+  padding: 0;
+}
+.follow-me li {
+  float: left;
+  margin: 0 8px 8px 0;
+  padding: 0;
+}
+.follow-me li a::before {
+  border-style: solid;
+  border-width: 1px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  color: #fff;
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 16px;
+  height: 42px; /* Button height */
+  line-height: 42px; /* Button height */
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  text-align: center;
+  width: 42px; /* Button width */
+}
+.follow-me li a[href*="github.com"]::before         { border-color: #181717; background-color: #181717; content: "\f09b"; }
+.follow-me li a[href*="twitter.com"]::before        { border-color: #55acee; background-color: #55acee; content: "\f099"; }
+.follow-me li a[href*="youtube.com"]::before        { border-color: #cd201f; background-color: #cd201f; content: "\f16a"; }
+.follow-me li a[href*="instagram.com"]::before      { border-color: #125688; background-color: #125688; content: "\f16d"; }
+.follow-me li a:hover::before {
+  background-color: #fff;
+}
+.follow-me li a[href*="instagram.com"]:hover::before      { color: #125688; }
+.follow-me li a[href*="twitter.com"]:hover::before        { color: #55acee; }
+.follow-me li a[href*="youtube.com"]:hover::before        { color: #cd201f; }
+.follow-me li a[href*="github.com"]:hover::before         { color: #181717; }
