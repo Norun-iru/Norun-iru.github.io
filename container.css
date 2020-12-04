@@ -111,13 +111,14 @@ body{
 
 .follow-me {
   list-style: none;
-  margin: 0 0 -8px;
   overflow: hidden;
   padding: 0;
+  margin-top: 5%;
+  margin-left: 45%;
 }
 .follow-me li {
   float: left;
-  margin: 0 8px 8px 0;
+  margin: 0 100px 8px 0;
   padding: 0;
 }
 .follow-me li a::before {
@@ -147,3 +148,38 @@ body{
 .follow-me li a[href*="twitter.com"]:hover::before        { color: #55acee; }
 .follow-me li a[href*="youtube.com"]:hover::before        { color: #cd201f; }
 .follow-me li a[href*="github.com"]:hover::before         { color: #181717; }
+
+
+
+
+.asd {
+  position: relative;
+  overflow: hidden;
+  padding: 1.5rem 2rem 1.5rem 30px;
+  border: 2px solid #000;
+}
+
+.asd:before {
+  position: absolute;
+  top: -150%;
+  left: -0px;
+  width: 200px;
+  height: 300%;
+  content: '';
+  -webkit-transform: rotate(25deg);
+  transform: rotate(25deg);
+  background: #000;
+}
+
+.asd span {
+  font-size: 40px;
+  font-size: 4rem;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  display: block;
+  padding-top: 3px;
+  padding-left: 16px;
+  color: #fff;
+}
