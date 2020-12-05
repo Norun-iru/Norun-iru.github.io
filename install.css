@@ -73,3 +73,35 @@ a.btn-flat:hover:before {
 .ka{
   font-size: 300%;
 }
+
+.asd {
+  position: relative;
+  padding: 1em 2em;
+  text-align: center;
+  color: #0970b9;
+}
+
+.asd:before,
+.asd:after {
+  position: absolute;
+  content: '';
+}
+
+.asd:after {
+  top: 10%;
+  left: 20%;
+  width: 50px;
+  height: 50px;
+  border-top: 2px solid #000;
+  border-left: 2px solid #000;
+  display: inline-block;
+}
+
+.asd:before {
+  right: 20%;
+  bottom: 10%;
+  width: 50px;
+  height: 50px;
+  border-right: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
