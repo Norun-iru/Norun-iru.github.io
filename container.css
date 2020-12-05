@@ -194,14 +194,20 @@ body{
     display: none;
   }
   .btn-flat-border{
-    margin-top: 5%;
+    margin-top: 0%;
   }
 
   .nav-drawer{
     display: inline-block;
   }
 
+  .mida{
+    margin-top: 30%;
+  }
 
+  .hamu{
+    margin-top: 20%;
+  }
 
 
 
@@ -333,5 +339,8 @@ body{
 
   .follow-me{
     margin-left: 25%;
+    margin-top: 30%;
   }
+
+
  }
