@@ -1,35 +1,35 @@
 .iru{
-    font-size: 400%;
+  font-size: 400%;
 }
 
 .asd {
-    position: relative;
-    padding: 1em 2em;
-    text-align: center;
-    color: #0970b9;
-  }
+  position: relative;
+  padding: 1em 2em;
+  text-align: center;
+  color: #0970b9;
+}
   
-  .asd:before,
-  .asd:after {
-    position: absolute;
-    content: '';
-  }
+.asd:before,
+.asd:after {
+  position: absolute;
+  content: '';
+}
   
-  .asd:after {
-    top: 15%;
-    left: 25%;
-    width: 50px;
-    height: 50px;
-    border-top: 2px solid #000;
-    border-left: 2px solid #000;
-    display: inline-block;
-  }
+.asd:after {
+  top: 15%;
+  left: 25%;
+  width: 50px;
+  height: 50px;
+  border-top: 2px solid #000;
+  border-left: 2px solid #000;
+  display: inline-block;
+}
   
-  .asd:before {
-    right: 25%;
-    bottom: 15%;
-    width: 50px;
-    height: 50px;
-    border-right: 2px solid #000;
-    border-bottom: 2px solid #000;
-  }
+.asd:before {
+  right: 25%;
+  bottom: 15%;
+  width: 50px;
+  height: 50px;
+  border-right: 2px solid #000;
+  border-bottom: 2px solid #000;
+}

@@ -1,38 +1,37 @@
 .header {
-    z-index: 9999;
-    position: fixed;
-    height: 5.0rem;
-    width: 100%;
-    background-color : rgb(29, 27, 27); 
-    top: 0;
-  }
+  z-index: 9999;
+  position: fixed;
+  height: 5.0rem;
+  width: 100%;
+  background-color : rgb(29, 27, 27); 
+  top: 0;
+}
   
-  .header-left {
-    float: left;
-    margin-left: 10%;
-  }
+.header-left {
+  float: left;
+  margin-left: 10%;
+}
   
-  .header-right {
-    float: right;
-    margin-right: 10%;
-  }
+.header-right {
+  float: right;
+  margin-right: 10%;
+}
 
-  .fslk{
-    margin-top: 10%;
+.fslk{
+  margin-top: 10%;
 }
 
 .nav-drawer{
   display: none;
 }
 
-
-
-
 body{
     margin: 0;
     text-align: center;
     font-family: 源柔ゴシック;
 }
+
+
 
 .btn-vertical-border {
   position: relative;
@@ -88,6 +87,8 @@ body{
   color: white;
 }
 
+
+
 .mida {
   position: relative;
   display: inline-block;
@@ -96,6 +97,7 @@ body{
   color: #000000;
   font-size: 300%;
 }
+
 .mida:before {
   content: '';
   position: absolute;
@@ -110,6 +112,8 @@ body{
   border-radius: 2px;
 }
 
+
+
 .follow-me {
   list-style: none;
   overflow: hidden;
@@ -118,11 +122,13 @@ body{
   margin-left: 45%;
   display: flex;
 }
+
 .follow-me li {
   float: left;
   margin: 0 100px 8px 0;
   padding: 0;
 }
+
 .follow-me li a::before {
   border-style: solid;
   border-width: 1px;
@@ -139,6 +145,7 @@ body{
   text-align: center;
   width: 42px; /* Button width */
 }
+
 .follow-me li a[href*="github.com"]::before         { border-color: #181717; background-color: #181717; content: "\f09b"; }
 .follow-me li a[href*="twitter.com"]::before        { border-color: #55acee; background-color: #55acee; content: "\f099"; }
 .follow-me li a[href*="youtube.com"]::before        { border-color: #cd201f; background-color: #cd201f; content: "\f16a"; }
@@ -146,6 +153,7 @@ body{
 .follow-me li a:hover::before {
   background-color: #fff;
 }
+
 .follow-me li a[href*="instagram.com"]:hover::before      { color: #125688; }
 .follow-me li a[href*="twitter.com"]:hover::before        { color: #55acee; }
 .follow-me li a[href*="youtube.com"]:hover::before        { color: #cd201f; }
@@ -153,11 +161,7 @@ body{
 
 
 
-
-
-
-
- .slide {
+.slide {
   position   : relative;
   overflow   : hidden;
   width      : 965px;
@@ -193,6 +197,7 @@ body{
   .header-right{
     display: none;
   }
+
   .btn-flat-border{
     margin-top: 0%;
   }
@@ -243,12 +248,16 @@ body{
     border-bottom: 2px solid #000;
   }
 
+
+  
   .iru{
     font-size: 250%;
   }
   .ka{
     font-size: 170%;
   }
+
+
 
   .slide {
     position   : relative;
@@ -261,6 +270,7 @@ body{
   }
 
   
+
   .nav-drawer {
     position: relative;
     margin-top: 8%;
@@ -280,11 +290,10 @@ body{
     margin-right: -30%;
   }
   
-  /*ハンバーガーアイコンをCSSだけで表現*/
   #nav-open span, #nav-open span:before, #nav-open span:after {
     position: absolute;
-    height: 3px;/*線の太さ*/
-    width: 25px;/*長さ*/
+    height: 3px;
+    width: 25px;
     border-radius: 3px;
     background: #555;
     display: block;
