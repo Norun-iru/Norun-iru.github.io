@@ -118,15 +118,14 @@ body{
   list-style: none;
   overflow: hidden;
   padding: 0;
-  margin-top: 5%;
-  margin-left: 45%;
   display: flex;
 }
 
 .follow-me li {
   float: left;
-  margin: 0 100px 8px 0;
   padding: 0;
+  margin: auto;
+  margin-top: 10%;
 }
 
 .follow-me li a::before {
@@ -253,9 +252,6 @@ body{
   .iru{
     font-size: 250%;
   }
-  .ka{
-    
-  }
 
 
 
@@ -347,7 +343,7 @@ body{
   }
 
   .follow-me{
-    margin-left: 25%;
+    margin: auto;
     margin-top: 30%;
   }
 

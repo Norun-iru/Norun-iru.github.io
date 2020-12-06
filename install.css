@@ -108,7 +108,7 @@ a.btn-flat:hover:before {
 }
 
 div.example {
-  margin-left: 37%;
+  margin: auto;
   width: 500px;
   height: 300px;
   background-color: rgb(236, 236, 236);
@@ -117,7 +117,7 @@ div.example {
 
 @media screen and (max-width: 480px){
   div.example {
-    margin-left: 3.5%;
+    margin: auto;
     width: 350px;
     height: 200px;
 
