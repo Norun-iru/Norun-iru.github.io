@@ -71,6 +71,7 @@ a.btn-flat:hover:before {
 }
 
 .ka{
+  margin-top: 10%;
   font-size: 300%;
 }
 
@@ -104,4 +105,26 @@ a.btn-flat:hover:before {
   height: 50px;
   border-right: 2px solid #000;
   border-bottom: 2px solid #000;
+}
+
+div.example {
+  margin-left: 37%;
+  width: 500px;
+  height: 300px;
+  background-color: rgb(236, 236, 236);
+  overflow: auto;
+}
+
+@media screen and (max-width: 480px){
+  div.example {
+    margin-left: 3.5%;
+    width: 350px;
+    height: 200px;
+
+  }
+
+  .ka{
+    margin-top: 30%;
+    font-size: 220%;
+  }
 }
