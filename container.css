@@ -119,13 +119,13 @@ body{
   overflow: hidden;
   padding: 0;
   display: flex;
+  justify-content: center;
+  margin-top: 10%;
 }
 
 .follow-me li {
   float: left;
   padding: 0;
-  margin: auto;
-  margin-top: 10%;
 }
 
 .follow-me li a::before {
