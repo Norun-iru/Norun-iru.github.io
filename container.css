@@ -1,3 +1,119 @@
+.menu {
+  position: relative;
+  width: 500%;
+  height: 50px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.menu > li {
+  float: left;
+  width: 25%; /* グローバルナビ4つの場合 */
+  height: 50px;
+  line-height: 50px;
+  background: rgb(100, 161, 211);
+}
+
+.menu > li a {
+  display: block;
+  color: rgb(255, 255, 255);
+}
+
+.menu > li a:hover {
+  color: rgb(255, 255, 255);
+}
+
+ul.menu__second-level {
+  visibility: hidden;
+  opacity: 0;
+  z-index: 1;
+}
+
+ul.menu__third-level {
+  visibility: hidden;
+  opacity: 0;
+}
+
+ul.menu__fourth-level {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.menu > li:hover {
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.menu__second-level li {
+  border-top: 1px solid rgb(255, 255, 255);
+}
+
+.menu__third-level li {
+  border-top: 1px solid rgb(255, 255, 255);
+}
+
+.menu__second-level li a:hover {
+  background: rgb(93, 139, 160);
+}
+
+.menu__third-level li a:hover {
+  background: #ffffff;
+}
+
+.menu__fourth-level li a:hover {
+  background: #ffffff;
+}
+
+/* 下矢印 */
+.init-bottom:after {
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin: 0 0 0 15px;
+  border-right: 1px solid rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(255, 255, 255);
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* floatクリア */
+.menu:before,
+.menu:after {
+  content: " ";
+  display: table;
+}
+
+.menu:after {
+  clear: both;
+}
+
+.menu {
+  *zoom: 1;
+}
+.menu > li.menu__single {
+  position: relative;
+}
+
+li.menu__single ul.menu__second-level {
+  position: absolute;
+  top: 40px;
+  width: 100%;
+  background: rgb(100, 161, 211);
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+li.menu__single:hover ul.menu__second-level {
+  top: 50px;
+  visibility: visible;
+  opacity: 1;
+}
+
+
+
+
 .header {
   z-index: 9999;
   position: fixed;
@@ -119,8 +235,9 @@ body{
   overflow: hidden;
   padding: 0;
   display: flex;
-  justify-content: centertr;
+  justify-content: space-around;
   margin-top: 10%;
+  margin-left: 0%;
 }
 
 .follow-me li {

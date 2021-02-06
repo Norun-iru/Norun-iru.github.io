@@ -1,9 +1,9 @@
-*,
-*:before,
-*:after {
-  -webkit-box-sizing: inherit;
-  box-sizing: inherit;
-}
+
+
+.emoji{
+    margin-top: 20%;
+    font-size: 300%;
+  }
 
 .btn,
 a.btn,
@@ -65,61 +65,16 @@ a.btn-flat:hover:before {
   transform: translateX(-9%) translateY(-25%) rotate(45deg);
 }
 
-.ka{
-  margin-top: 20%;
-  font-size: 300%;
-}
-
-.asd {
-  position: relative;
-  padding: 1em 2em;
-  text-align: center;
-  color: #0970b9;
-}
-
-.asd:before,
-.asd:after {
-  position: absolute;
-  content: '';
-}
-
-.asd:after {
-  top: 15%;
-  left: 25%;
-  width: 50px;
-  height: 50px;
-  border-top: 2px solid #000;
-  border-left: 2px solid #000;
-  display: inline-block;
-}
-
-.asd:before {
-  right: 25%;
-  bottom: 15%;
-  width: 50px;
-  height: 50px;
-  border-right: 2px solid #000;
-  border-bottom: 2px solid #000;
-}
-
-div.example {
-  margin: auto;
-  width: 500px;
-  height: 300px;
-  background-color: rgb(236, 236, 236);
-  overflow: auto;
-}
-
 @media screen and (max-width: 480px){
-  div.example {
-    margin: auto;
-    width: 350px;
-    height: 200px;
-
+    div.example {
+      margin: auto;
+      width: 350px;
+      height: 200px;
+  
+    }
+  
+    .emoji{
+      margin-top: 30%;
+      font-size: 200%;
+    }
   }
-
-  .ka{
-    margin-top: 30%;
-    font-size: 220%;
-  }
-}
