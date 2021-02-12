@@ -25,7 +25,7 @@
 
 ul.menu__second-level {
   visibility: hidden;
-  opacity: 0;
+  opacity: 10;
   z-index: 1;
 }
 
@@ -109,6 +109,9 @@ li.menu__single:hover ul.menu__second-level {
   top: 50px;
   visibility: visible;
   opacity: 1;
+}
+ul{
+  list-style: none;
 }
 
 

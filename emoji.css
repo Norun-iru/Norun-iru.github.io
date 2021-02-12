@@ -64,6 +64,10 @@ a.btn-flat:hover:before {
   -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
   transform: translateX(-9%) translateY(-25%) rotate(45deg);
 }
+.syasin{
+  width : 450px;
+  height: 700px;
+}
 
 @media screen and (max-width: 480px){
     div.example {
