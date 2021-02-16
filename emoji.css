@@ -81,4 +81,10 @@ a.btn-flat:hover:before {
       margin-top: 30%;
       font-size: 200%;
     }
+
+    .syasin{
+      margin:auto;
+      width: 350px;
+      height: 600px;
+    }
   }
