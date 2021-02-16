@@ -1,9 +1,4 @@
-*,
-*:before,
-*:after {
-  -webkit-box-sizing: inherit;
-  box-sizing: inherit;
-}
+
 
 .btn,
 a.btn,
