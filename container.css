@@ -3,7 +3,7 @@
   width: 500%;
   height: 50px;
   max-width: 1000px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .menu > li {
@@ -12,6 +12,7 @@
   height: 50px;
   line-height: 50px;
   background: rgb(100, 161, 211);
+  
 }
 
 .menu > li a {
@@ -91,9 +92,11 @@ ul.menu__fourth-level {
 
 .menu {
   *zoom: 1;
+  
 }
 .menu > li.menu__single {
   position: relative;
+  
 }
 
 li.menu__single ul.menu__second-level {
@@ -103,6 +106,7 @@ li.menu__single ul.menu__second-level {
   background: rgb(100, 161, 211);
   -webkit-transition: all .2s ease;
   transition: all .2s ease;
+  
 }
 
 li.menu__single:hover ul.menu__second-level {
@@ -133,7 +137,7 @@ ul{
   
 .header-right {
   float: right;
-  margin-right: 10%;
+  margin-right: 25%;
 }
 
 .fslk{
