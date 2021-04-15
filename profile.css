@@ -1,0 +1,39 @@
+.center{
+    text-align: center;
+}
+.imgsize{
+    width: 200px;
+    height: 200px;
+    margin-top: -15%;
+    border-radius: 40%;
+}
+.namehed {
+    margin-top: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    z-index: 1;
+}
+p{
+    margin-top: 3%;
+}
+
+@media screen and (max-width: 480px){
+    .cop{
+        font-size: 40%;
+        margin-top: 10%;
+        
+    }
+    body{
+        text-align: center;
+    }
+    .namehed{
+        flex-direction: column;
+        margin-top: 120%;
+    }
+    p{
+        font-size: 40%;
+        margin-top: 10%;
+        
+    }
+}

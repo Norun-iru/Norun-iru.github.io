@@ -1,35 +1,16 @@
-.iru{
-  font-size: 400%;
+.titlesize{
+    font-size: 300%;
 }
-
-.asd {
-  position: relative;
-  padding: 1em 2em;
-  text-align: center;
-  color: #0970b9;
+body{
+    text-align: center;
 }
-  
-.asd:before,
-.asd:after {
-  position: absolute;
-  content: '';
+p{
+    margin-top: 3%;
 }
-  
-.asd:after {
-  top: 15%;
-  left: 25%;
-  width: 50px;
-  height: 50px;
-  border-top: 2px solid #000;
-  border-left: 2px solid #000;
-  display: inline-block;
-}
-  
-.asd:before {
-  right: 25%;
-  bottom: 15%;
-  width: 50px;
-  height: 50px;
-  border-right: 2px solid #000;
-  border-bottom: 2px solid #000;
+@media screen and (max-width: 480px){
+    p{
+        font-size: 40%;
+        margin-top: 10%;
+        
+    }
 }
