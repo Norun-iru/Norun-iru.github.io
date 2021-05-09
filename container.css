@@ -4,6 +4,9 @@ body{
     color: #4e54c8;
     width: 100%;
 }
+.moji{
+  text-align: left;
+}
 .hedfont{
     font-family: 'wire one', serif;
     font-size: 200%;
