@@ -19,7 +19,16 @@ header {
 h1 {
   font-size: 50px;
 }
-
+.btn--orange,
+a.btn--orange {
+  color: #fff;
+  background-color: #eb6100;
+}
+.btn--orange:hover,
+a.btn--orange:hover {
+  color: #fff;
+  background: #f56500;
+}
 p{
   font-size: 20px;
   color: rgb(255, 255, 255);
@@ -29,6 +38,23 @@ p{
   align-items: center;
   display:flex;
 }
+.leftline{
+  text-align:right;
+  margin-right: 10%;
+  display: flex;
+  color: white;
+  border-bottom: 3px solid white;
+  margin-bottom: 3%;
+  margin-top:3%;
+}
+
+.sitasen{
+  border-bottom: 5px solid white;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  margin-right: 56%;
+}
+
 
 
 /*まずはお決まりのボックスサイズ算出をborer-boxに */
@@ -65,14 +91,13 @@ button.btn {
   vertical-align: middle;
   text-decoration: none;
   letter-spacing: 0.1em;
-  color: #212529;
   border-radius: 0.5rem;
 }
 
-.btn--orange,
-a.btn--orange {
+ .btnda{
   color: #ffffff;
   font-size: 100%;
+  text-decoration: none;
 }
 
 
