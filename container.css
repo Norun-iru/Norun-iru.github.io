@@ -120,33 +120,9 @@ a.btn--orange {
     .flowbtn10 .fa-twitter:hover{
     color:#55acee;
     }
-    /* Instagramマウスホバー時 */
-    .flowbtn10 .fa-instagram:hover{
-    color:#c6529a;
-    }
-    /* Facebookマウスホバー時 */
-    .flowbtn10 .fa-facebook-f:hover{
-    color:#3b5998;
-    }
-    /* Feedlyマウスホバー時 */
-    .flowbtn10 .fa-rss:hover{
-    color:#6cc655;
-    }
-    /* Pocketマウスホバー時 */
-    .flowbtn10 .fa-get-pocket:hover{
-    color:#ef3f56;
-    }
-    /* はてブマウスホバー時 */
-    .flowbtn10 .fa-bold:hover{
-    color:#1ba5dc;	
-    }
     /* YouTubeマウスホバー時 */
     .flowbtn10 .fa-youtube:hover{
     color:#fc0d1c;
-    }
-    /* LINEマウスホバー時 */
-    .flowbtn10 .fa-line:hover{
-    color:#00c300;
     }
     /* メールアイコンマウスホバー時 */
     .flowbtn10 .fa-envelope:hover{
