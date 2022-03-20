@@ -19,6 +19,7 @@ header {
 h1 {
   font-size: 50px;
 }
+
 .btn--orange,
 a.btn--orange {
   color: #fff;
@@ -29,6 +30,12 @@ a.btn--orange:hover {
   color: #fff;
   background: #f56500;
 }
+
+.btn--orange2{
+  visibility: hidden;
+}
+
+
 p{
   font-size: 20px;
   color: rgb(255, 255, 255);
@@ -37,15 +44,6 @@ p{
   margin-left: 10%;
   align-items: center;
   display:flex;
-}
-.leftline{
-  text-align:right;
-  margin-right: 10%;
-  display: flex;
-  color: white;
-  border-bottom: 3px solid white;
-  margin-bottom: 3%;
-  margin-top:3%;
 }
 
 .sitasen{
@@ -56,14 +54,6 @@ p{
 }
 
 
-
-/*まずはお決まりのボックスサイズ算出をborer-boxに */
-*,
-*:before,
-*:after {
-  -webkit-box-sizing: inherit;
-  box-sizing: inherit;
-}
 
 html {
   -webkit-box-sizing: border-box;
@@ -100,8 +90,7 @@ button.btn {
   text-decoration: none;
 }
 
-
-.square1 {
+  .square1 {
 	width: 800px;
 	height: 800px;
 	background: #ffffff;
@@ -121,6 +110,7 @@ button.btn {
   float:left;
   margin-top: 20%;
 }
+
 
   /* ボタン全体 */
   .flowbtn10{
@@ -196,4 +186,62 @@ button.btn {
       font-size: 14px;
    }
 
-  
+
+
+    @media screen and (max-width:480px) {
+ 
+      .square1 {
+      display: none;
+    }
+    
+    .square2 {
+      margin-top: 40%;
+      width: 300px;
+      height: 300px;
+    }
+
+    .btn--orange{
+      visibility: hidden;
+    }
+
+    .btn--orange2{
+      visibility: visible;
+      margin-left: 10%;
+    }
+    .btn--orange2,
+    a.btn--orange2 {
+    color: #fff;
+    background-color: #eb6100;
+  }
+    .btn--orange2:hover,
+    a.btn--orange2:hover {
+    color: #fff;
+    background: #f56500;
+  }
+
+  .flowbtn10{
+    margin-top: 80%;
+  }
+
+  .sitasen{
+    margin-right: 0%;
+  }
+     
+    }
+
+    @media screen and (max-width:1540px){
+      .square1{
+        width: 400px;
+        height: 400px;
+        margin-top: -40%;
+      }
+    }
+
+    @media screen and (max-width:1085px){
+      .square1{
+        display: none;
+      }
+      .square2{
+        
+      }
+    }
