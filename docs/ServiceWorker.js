@@ -1,9 +1,9 @@
 const cacheName = "DefaultCompany-GitHubGame-1.0";
 const contentToCache = [
     "Build/docs.loader.js",
-    "Build/docs.framework.js.br",
-    "Build/docs.data.br",
-    "Build/docs.wasm.br",
+    "Build/docs.framework.js",
+    "Build/docs.data",
+    "Build/docs.wasm",
     "TemplateData/style.css"
 
 ];
